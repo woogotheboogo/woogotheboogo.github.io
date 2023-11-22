@@ -1,7 +1,42 @@
-h1 {
+* {
+    max-width: 100%;
+    line-height: 1.5;
     text-align: center;
-    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    font-family: 'Helvetica', 'Arial', sans-serif;
 }
-img {
-    width: 200px
+
+
+
+ul {
+    list-style-type: none;
+    
+}
+li {
+    display:inline;
+    margin: 0.5rem;
+}
+
+
+.loginbox {
+   border: solid;
+   border-width: 1px;
+   border-color: rgb(192, 192, 192);
+   text-align: center;
+}
+
+.loginbutton {
+    max-width: 200px;
+    width: 100%;
+    color:white;
+    border:none;
+    border-radius: 4px;
+    background-color: rgb(69, 159, 233);
+}
+
+.signupbox {
+    border: solid;
+    border-width: 1px;
+    border-color: gray;
+    text-align: center;
 }
